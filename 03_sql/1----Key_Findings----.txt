@@ -1,0 +1,56 @@
+1. Subscription Rate = ?%
+2. Top job = ? at ?%
+3. Highest default job = ?
+4. Highest balance education = ?
+5. Most common risk = ?
+6. Best month = ?
+7. Best age group = ?
+8. Best balance segment = ?
+
+
+What Are Views and Stored Procedures?
+View = A saved query that acts like a virtual table
+
+You query it like a normal table
+Always shows fresh data
+Simplifies complex queries
+
+Stored Procedure = A saved SQL program with parameters
+
+You call it with different inputs
+Like a function in Python
+Used heavily in real banking systems
+
+
+
+Query 1 — Customer Tiers:
+
+How many Platinum customers? = 
+How many Bronze customers? = 
+
+Query 2 — Campaign Effectiveness:
+
+Which month had best MoM growth? = 
+What is the running subscription rate? = 
+
+Query 3 — Customer Segments:
+
+How many Premium Loyal customers? = 
+How many High Value Prospects? = 
+
+
+From Views:
+
+Top job + subscription rate from vw_Customer_Summary? = 
+Best month from vw_Campaign_Performance? = 
+
+From Stored Procedures:
+
+How many High Risk customers with balance > 1000? = 
+Top Age Group for management job? = 
+
+From Bonus Insights:
+
+Best customer profile for subscription? = 
+Does call duration affect subscription rate? = 
+
